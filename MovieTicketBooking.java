@@ -163,7 +163,7 @@ package scanner;
 
             // Step 9: Show Booking Summary
             System.out.println("\n=== Booking Summary ===");
-            System.out.println("City: " + capitalize(cityInput));
+            System.out.println("City: " +  (cityInput));
             System.out.println("Theatre: " + selectedTheatre);
             System.out.println("Genre: " + selectedGenre);
             System.out.println("Movie: " + selectedMovie);
