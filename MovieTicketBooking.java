@@ -176,11 +176,8 @@ package scanner;
             System.out.println("Thank you! Enjoy your movie.\n");
         }
 
-        // Capitalize first letter of city
-        public static String capitalize(String word) {
-            if (word.length() == 0) return word;
-            return word.substring(0, 1).toUpperCase() + word.substring(1);
-        }
+       
+        
     }
 
 
